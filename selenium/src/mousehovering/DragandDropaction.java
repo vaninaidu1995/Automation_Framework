@@ -13,7 +13,7 @@ public class DragandDropaction {
 		WebDriver driver=new ChromeDriver();
 		driver.get(")
         driver.manage().window().maximize();
-        Thread.sleep(2000);
+        //Thread.sleep(2000);
         WebElement src=driver.findElement(By.id("box3"));
         WebElement dst=driver.findElement(By.id("box103"));
         Actions.act= new actions(driver);
