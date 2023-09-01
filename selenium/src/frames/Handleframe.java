@@ -13,7 +13,7 @@ public class Handleframe {
 		WebDriver driver=new ChromeDriver ();
  driver.get("file:///C:/Users/Vani/Desktop/mainpageframe.html");
  driver.findElement(By.xpath(//input[@id='a1']));
-		 Thread.sleep(2000);
+		 //Thread.sleep(2000);
 		 
   
    
